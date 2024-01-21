@@ -8,6 +8,7 @@ describe('checkbox',()=>{
         cy.get('[type="checkbox"]').first().click()
         
         
+        
 
     })
 
