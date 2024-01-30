@@ -9,6 +9,7 @@ describe('new tab ' , ()=>{
                     const r = d.text()
                //assertion
                    expect(r).to.include('Engineer');
+                   cy.screenshot()
                 })
 
              }
